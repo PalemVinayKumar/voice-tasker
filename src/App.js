@@ -1,6 +1,7 @@
 // File: src/App.js (Offline Version - No Firebase)
 import React, { useState, useEffect } from "react";
-import chrono from "chrono-node";
+import * as chrono from 'chrono-node';
+
 
 export default function App() {
   const [input, setInput] = useState("");
